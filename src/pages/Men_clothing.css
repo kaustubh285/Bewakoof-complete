@@ -1,0 +1,20 @@
+.body_container {
+  display: flex;
+  width: 100%;
+}
+
+.body_container_left {
+  flex: 0.2;
+}
+
+.body_container_right {
+  flex: 0.78;
+
+  padding: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+  .body_container_right {
+    padding: 0px;
+  }
+}

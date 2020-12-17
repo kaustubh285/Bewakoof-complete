@@ -1,0 +1,9 @@
+.MuiTypography-body1 {
+  font-size: 14px !important;
+}
+
+.yellow_line {
+  max-width: 8vw;
+  min-height: 2px;
+  background-color: #fbd139;
+}

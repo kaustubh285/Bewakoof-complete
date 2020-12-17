@@ -45,18 +45,18 @@ function Header() {
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
             <ul className='navbar-nav mr-auto'>
               <li className='nav-item active'>
-                <a className='nav-link' href='/'>
-                  Men <span className='sr-only'>(current)</span>
+                <a className='nav-link' href='/men-clothing'>
+                  Men
                 </a>
               </li>
               <li className='nav-item active'>
-                <a className='nav-link' href='/'>
-                  Women <span className='sr-only'>(current)</span>
+                <a className='nav-link' href='/women-clothing'>
+                  Women
                 </a>
               </li>
               <li className='nav-item active'>
-                <a className='nav-link' href='/'>
-                  Mobile Covers <span className='sr-only'>(current)</span>
+                <a className='nav-link' href='/page_not_found'>
+                  Mobile Covers
                 </a>
               </li>
             </ul>
