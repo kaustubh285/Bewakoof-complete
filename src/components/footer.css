@@ -1,0 +1,110 @@
+.footer {
+  margin-top: 20px;
+  background-color: #181818;
+  padding-top: 50px;
+  color: #f1f1f1;
+  padding-bottom: 30px;
+}
+
+p {
+  cursor: pointer;
+}
+.footer__logo {
+  margin: 10px;
+  max-width: 130px;
+  object-fit: contain;
+}
+
+.footer__section1 {
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__section1Part {
+  margin: 10px;
+}
+.footer__section1Part > h5 {
+  font-size: small;
+  color: #fdd835;
+}
+
+.footer__section1Part > p {
+  font-size: smaller;
+  margin-bottom: 0;
+}
+
+.UpToDate {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.UpToDate > input {
+  flex: 0.5;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  color: darkgray;
+  border-bottom: 1px solid #fdd835;
+}
+
+.UpToDate > button {
+  background-color: #fdd835;
+  border: none;
+  height: 100%;
+  flex: 0.5;
+}
+
+.footer__section2 {
+  width: 70%;
+  justify-content: space-between;
+}
+
+.download_the_app {
+  display: flex;
+}
+
+p > .MuiSvgIcon-root {
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download_the_app > img {
+  width: 90px;
+}
+.footer__section2Part > p {
+  margin-bottom: 4px;
+  font-size: smaller;
+}
+
+.footer__section2 > div {
+  min-width: 29%;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer__logo {
+    margin: 10px;
+    margin-bottom: 30px;
+  }
+  .footer__section2 {
+    width: 100%;
+  }
+  .footer__section2 > div {
+    min-width: 33%;
+  }
+}

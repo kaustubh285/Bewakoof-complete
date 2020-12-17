@@ -1,0 +1,60 @@
+.AdCard_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.AdCard_horizontal {
+  max-width: 100%;
+}
+
+.Ad_horizontal {
+  cursor: pointer;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.home__topWear {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.home__topWearItem {
+  max-width: 180px;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 500px) {
+  .BottomWear {
+    margin-bottom: 10px;
+    object-fit: contain;
+    max-height: 120px;
+  }
+  .VoiceForVocal {
+    object-fit: contain;
+    max-height: 200px;
+  }
+  .doctor_mobile {
+    display: none;
+  }
+  .doctor_desktop {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .doctor_mobile {
+    display: block;
+  }
+  .doctor_desktop {
+    display: none;
+  }
+  .home__topWear {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .home__topWearItem {
+    width: 30vw;
+  }
+}
